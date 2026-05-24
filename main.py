@@ -10,6 +10,7 @@ age+=1
 print("Happy birthday to Me")
 print(f"{name} is now {age} years old")
 '''
+import math
 
 x = 3.14
 y = -4
@@ -20,3 +21,7 @@ print(abs(y))
 print(pow(z, 2))
 print(max(x,y,z))
 print(min(x,y,z))
+
+print(math.pi)
+print(math.e)
+print(math.sqrt(1024))
