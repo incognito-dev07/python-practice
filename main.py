@@ -1,27 +1,13 @@
-''' This is my first python program
-
-name = input("What is your name: ")
-age = int(input("What is your age: "))
-
-print(f"My name is {name}")
-print(f"I am currently {age} years old\n")
-
-age+=1
-print("Happy birthday to Me")
-print(f"{name} is now {age} years old")
-'''
 import math
 
-x = 3.14
-y = -4
-z = 5
+radius = float(input("Enter the radius (cm): "))
 
-print(round(x))
-print(abs(y))
-print(pow(z, 2))
-print(max(x,y,z))
-print(min(x,y,z))
+diameter = 2 * radius
+circumference = 2 * math.pi * radius
+area = math.pi * pow(radius,2)
 
-print(math.pi)
-print(math.e)
-print(math.sqrt(1024))
+print("\nResults:")
+
+print(f"The diameter is: {diameter}")
+print(f"The circumference is: {round(circumference,2)} cm")
+print(f"The area is: {round(area,2)} cm")
