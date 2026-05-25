@@ -13,6 +13,6 @@ else:
   
   
   
-age = 18
-msg = "Too young" if age < 18 else "Welcome"
-print(msg)
+number = 18
+message = "even number" if number % 2 == 0 else "odd number"
+print(f"{number} is an {message}")
