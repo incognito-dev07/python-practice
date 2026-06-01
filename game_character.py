@@ -24,4 +24,4 @@ def create_character(name, strength, intelligence, charisma):
   INT: {full_dot * intelligence}{empty_dot * (10 - intelligence)}
   CHA: {full_dot * charisma}{empty_dot * (10 - charisma)}"""
   
-print(create_character("Nigga", 4, 2, 1))
+print(create_character("Nigga", 3, 2, 2))
