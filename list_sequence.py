@@ -1,8 +1,8 @@
-fruits = ["apple","orange","mango","pawpaw"]
+fruits = ["apple", "orange", "mango", "pawpaw"]
 
 list(fruits[1]) # converts a string to list
 len(fruits) # finds the length of a list
 del fruits[3] # deletes the elements at an index
+"mango" in fruits # checks if an element exists"
 
-
-print(fruits)
+print("mango" in fruits)
