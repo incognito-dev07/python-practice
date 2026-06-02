@@ -16,3 +16,8 @@ print(rest) # prints a list of the remainder
 
 # NB: List slicing works the same way as string slicing
 
+
+numbers = [1, 2, 3, 4, 5]
+numbers.append(6) # adds to end of the list
+
+print(numbers.append(6))
