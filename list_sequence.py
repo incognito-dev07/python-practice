@@ -17,12 +17,16 @@ print(rest) # prints a list of the remainder
 # NB: List slicing works the same way as string slicing
 
 
-numbers = [1, 2, 3, 4, 5]
-remaining = [7, 8, 9]; idx = 3
-numbers.append(6) # adds an element to the end
+numbers = [5, 9, -3, 1, 7, 5]
+remaining = [6, -4, 2]; idx = 3
+numbers.append(4) # adds an element to the end
 numbers.extend(remaining) # joins two lists
 numbers.insert(idx, 10) # adds element at an index
 numbers.remove(10) # removes a particular element
-numbers.pop(-1) # removes ekement at an index
+numbers.pop(-1) # removes element at an index
+numbers.sort() # sorts the list in place
+new_list = sorted(numbers) # sorts any iterable and returns a new list
+# numbers.clear() # empties the list
+
 
 print(numbers)
