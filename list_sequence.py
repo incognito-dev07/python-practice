@@ -18,10 +18,10 @@ print(rest) # prints a list of the remainder
 
 
 numbers = [1, 2, 3, 4, 5]
-remaining = [7, 8, 9]
+remaining = [7, 8, 9]; idx = 3
 numbers.append(6) # adds to end of the list
 numbers.extend(remaining) # joins two lists
-numbers.insert(3, 10) # adds element at index 3
+numbers.insert(idx, 10) # adds element at an index
 numbers.remove(10) # removes a particular element
 
 
