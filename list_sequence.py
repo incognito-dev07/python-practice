@@ -30,4 +30,19 @@ numbers.clear() # empty the list completely
 
 print(numbers)
 
-# NB: List slicing works the same way as string slicing
+
+# Tuples
+developer = ("Alice", 18, "Python developer")
+tuple(developer[2]) # converts a string to tuple
+# accessing elements, "in" and "*" keyword, unpacking items all work the samw way in list
+
+
+
+
+
+
+
+
+
+
+# NB: List and Tuple slicing works the same way as string slicing
