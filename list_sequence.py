@@ -31,6 +31,7 @@ numbers.clear() # empty the list completely
 print(numbers)
 
 
+
 print("\n")
 # Tuples
 developer = ("Alice", 18, "Python")
