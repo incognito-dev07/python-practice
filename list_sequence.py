@@ -17,10 +17,10 @@ print(rest) # prints a list of the remainder
 
 # List methods
 numbers = [5, 9, -3, 1, 7, 5]
-remaining = [6, -4, 2]; idx = 3
+rest = [6, -4, 2]; idx = 3
 numbers.index(9) # finds the index location
 numbers.append(4) # adds an element to the end
-numbers.extend(remaining) # joins two lists
+numbers.extend(rest) # joins two lists
 numbers.insert(idx, 10) # adds element at an index
 numbers.remove(10) # removes a particular element
 numbers.pop(-1) # removes element at an index
@@ -44,11 +44,11 @@ tuple(developer[2]) # converts a string to tuple
 country = ("france", "italy", "japan", "iran")
 country.count("italy") # counts total occurence
 country.index("france") # finds the index location
+new = sorted(country) # returns a new sorted tuple
 
 
 
-
-print(country.index("italy"))
+print(new)
 
 
 
