@@ -30,28 +30,19 @@ numbers.reverse() # reverse the elements of a list
 numbers.count(5) # counts total occurence
 numbers.clear() # empty the list completely
 
-print(new)
 
 
-
-print("\n")
 # Tuples
 developer = ("Alice", 21, "Python")
 tuple(developer[2]) # converts a string to tuple
-# accessing elements, "in" and "*" keyword, unpacking items all work the samw way in list
+# accessing elements, "in" and "*" keyword, unpacking items all work the same way in list
 
 # Tuple methods
 country = ("france", "italy", "japan", "iran")
 country.count("italy") # counts total occurence
 country.index("france") # finds the index location
 new = sorted(country) # returns a new sorted tuple
-
-
-
-print(new)
-
-
-
+len(country) # returns the length of the tuple
 
 
 # NB: List and Tuple slicing works the same way as string slicing
