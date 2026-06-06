@@ -6,7 +6,7 @@ attempts = 0
 while attempts < 7:
   user_input = int(input("Guess the number (1 - 100): "))
   if user_input == answer:
-    print(f"Correct: The result is {user_input}")
+    print(f"Correct: The number is {user_input}")
     break
   else:
     if user_input > answer:
@@ -15,5 +15,5 @@ while attempts < 7:
       print(f"{user_input} is too low!")
     attempts += 1
     print(f"Try again! {7 - attempts} attempts left\n")
-  print(f"The correct number is {answer}")
+print(f"The correct number is {answer}")
   
