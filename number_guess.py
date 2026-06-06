@@ -1,5 +1,5 @@
-import math
-print(math.rand(0, 100))
+import random
+print(random.randint(0, 100))
 user_input = None 
 
 # while user_input != number:
