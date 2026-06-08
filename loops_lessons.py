@@ -1,4 +1,4 @@
-usernames = ["klaus", "elijah", "rebeccah", "kol", "freya", "finn"]
+usernames = ["Klaus", "Elijah", "Rebeccah", "Kol", "Freya", "Finn"]
 
 for idx, name in enumerate(usernames, 1):
   print(f"{idx}. {name}")
