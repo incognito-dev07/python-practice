@@ -3,13 +3,13 @@ balance = 100.00
 def deposit(amount):
   global balance
   balance += amount
-  print(f"Deposited N{amount} successfully")
+  print(f"You deposited N{amount} successfully")
   
 def withdraw(amount):
   global balance
   if balance >= amount:
     balance = balance - amount
-    print(f"Withdrew N{amount} successfully")
+    print(f"You withdrew N{amount} successfully")
   else:
     print("Insufficient balance!")
     
