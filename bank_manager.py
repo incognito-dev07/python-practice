@@ -26,10 +26,10 @@ while True:
   
   if choice == "1":
     amount = int(input("\nEnter amount to deposit: "))
-    deposit(balance, amount)
+    deposit(amount)
   elif choice == "2":
     amount = int(input("\nEnter amount to withdraw: "))
-    withdraw(balance, amount)
+    withdraw(amount)
   elif choice == "3":
     check_balance()
   elif choice == "4":
