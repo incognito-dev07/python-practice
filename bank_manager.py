@@ -1,10 +1,10 @@
 balance = 100.00
 
-def deposit(amount):
+def deposit(balance, amount):
   balance += amount
   print(f"Deposited N{amount} successfully")
   
-def withdraw(amount):
+def withdraw(balance, amount):
   if balance > amount:
     balance -= amount
     print(f"Withdrew N{amount} successfully")
@@ -23,15 +23,15 @@ while True:
   choice = input("Choose an option (1-4): ")
   
   if choice == "1":
-    amount = int(input("Enter amount to deposit: "))
-    deposit(amount)
+    amount = int(input("\nEnter amount to deposit: "))
+    deposit(balance, amount)
   elif choice == "2":
-    amount = int(input("Enter amount to withdraw: "))
-    withdraw(amount)
+    amount = int(input("\nEnter amount to withdraw: "))
+    withdraw(balance, amount)
   elif choice == "3":
     check_balance()
   elif choice == "4":
     print("\nThanks for using our service")
     break
   else:
-    print("\nInvalid option!")
+    print("\nInvalid option. Try again!")
