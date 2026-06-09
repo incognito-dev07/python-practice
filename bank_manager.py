@@ -15,7 +15,8 @@ def check_balance():
   print(f"\nAvailable balance: N{balance}")
 
 while True:
-  print("\n1. Deposit money")
+  print("\nBANK MANAGER SYSTEM")
+  print("1. Deposit money")
   print("2. Withdraw money")
   print("3. Check balance")
   print("4. Exit")
