@@ -26,5 +26,5 @@ for name, age in zip(developers, ages):
 print("\n")
   
 # List Comprehension
-even = num for num in range(21) num % 2 == 0
+even = [num for num in range(21) if num % 2 == 0]
 print(even)
