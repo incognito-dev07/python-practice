@@ -6,7 +6,7 @@ def number_pattern(n):
   else:
     result = []
     for i in range(n):
-      result.append(f"{n+1}")
-    return result
+      result.append(f"{i+1}")
+    return " ".join(result)
     
 print(number_pattern(4))
